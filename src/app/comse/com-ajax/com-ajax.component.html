@@ -1,0 +1,20 @@
+<p>com-ajax works!</p>
+<!-- 
+<h2>html</h2>
+<div class="html"></div><br>
+
+<h2>json</h2>
+<div class="json"></div><br>
+
+<h2>txt</h2>
+<div class="txt"></div><br>
+
+<h2>js</h2>
+<div class="js"></div> -->
+<div>
+    <div [class] ="key"  *ngFor = "let key of arrKey">{{db[key]}}</div><br><hr>
+</div>
+
+<div>
+    <div [class] ="html"  [innerHTML]="db['html']" ></div><br>
+</div>
